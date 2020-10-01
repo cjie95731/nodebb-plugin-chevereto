@@ -1,0 +1,23 @@
+{
+  "name": "nodebb-plugin-chevereto",
+  "version": "1.0.2",
+  "description": "A nodebb plugin that upload images to chevereto",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/incotnigo/nodebb-plugin-chevereto"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "chevereto"
+  ],
+  "author": "incotnigo <incotnigo@gmail.com>",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "request": "^2.0.0"
+  },
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  }
+}

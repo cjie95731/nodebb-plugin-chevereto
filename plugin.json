@@ -1,0 +1,9 @@
+{
+    "id": "nodebb-plugin-chevereto",
+    "description": "A nodebb plugin that upload images to img.ponpomu.com",
+    "url": "https://github.com/inconigo/nodebb-plugin-chevereto",
+    "library": "./index.js",
+    "hooks": [
+        { "hook": "filter:uploadImage", "method": "uploadImage", "priority": 6 }
+    ]
+}
