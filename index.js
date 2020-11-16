@@ -36,7 +36,7 @@ plugin.uploadImage = function(data, callback) {
 			'User-Agent': 'request'
 		},
 		formData: {
-			key: 'ponpomuyuri2233',
+			key: '',
 			action: 'upload',
 			source: formDataImage,
 			format: 'json'
